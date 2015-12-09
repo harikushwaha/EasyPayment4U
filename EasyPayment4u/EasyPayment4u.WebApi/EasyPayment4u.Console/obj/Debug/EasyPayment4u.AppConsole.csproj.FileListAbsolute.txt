@@ -1,0 +1,6 @@
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\bin\Debug\EasyPayment4u.AppConsole.exe.config
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\bin\Debug\EasyPayment4u.AppConsole.exe
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\bin\Debug\EasyPayment4u.AppConsole.pdb
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\obj\Debug\EasyPayment4u.AppConsole.csprojResolveAssemblyReference.cache
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\obj\Debug\EasyPayment4u.AppConsole.exe
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.Console\obj\Debug\EasyPayment4u.AppConsole.pdb

@@ -1,0 +1,29 @@
+﻿<Window x:Class="EasyPayment4u.Windows.CreateOrderWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="CreateOrderWindow" Height="Auto" Width="Auto" WindowStyle="ToolWindow">
+    <DockPanel>
+        <StackPanel>
+            <ComboBox></ComboBox>
+            <DataGrid DataContext="{Binding Orders}">
+                <DataGridTemplateColumn Header="OrderID">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding Orders.OrderID}" BorderThickness="0" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+
+                <DataGridTemplateColumn Header="OrderDate">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <TextBox Text="{Binding OrderDate}" BorderThickness="0" />
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid>
+            <Button Content="Click" Command="{Binding OnCloseCmd}" CommandParameter="Hi Hari"></Button>
+        </StackPanel>
+        
+    </DockPanel>
+</Window>

@@ -1,0 +1,9 @@
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\bin\Debug\EasyPayment4u.WindowsApp.exe.config
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\bin\Debug\EasyPayment4u.WindowsApp.exe
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\bin\Debug\EasyPayment4u.WindowsApp.pdb
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.csprojResolveAssemblyReference.cache
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.Form1.resources
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.Properties.Resources.resources
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.csproj.GenerateResource.Cache
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.exe
+D:\Project\EasyPayment4u.WebApi\EasyPayment4u.WindowsApp\obj\Debug\EasyPayment4u.WindowsApp.pdb

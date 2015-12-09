@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f1e95b443df74335ad0d62143c1e8c19" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="EasyPayment4uModel.C__MigrationHistory" Width="1.5" PointX="5.75" PointY="7.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.AspNetRole" Width="1.5" PointX="7.75" PointY="2.25" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.AspNetUserClaim" Width="1.5" PointX="12.25" PointY="1" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.AspNetUserLogin" Width="1.5" PointX="12.25" PointY="3.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.AspNetUser" Width="1.5" PointX="10" PointY="1.375" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Customer" Width="1.5" PointX="0.75" PointY="13.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.OrderLine" Width="1.5" PointX="5.25" PointY="10.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Product" Width="1.5" PointX="3" PointY="10.625" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.ProductCategory" Width="1.5" PointX="3" PointY="8" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.ProductType" Width="1.5" PointX="0.75" PointY="9.375" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Role" Width="1.5" PointX="0.75" PointY="3" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.sysdiagram" Width="1.5" PointX="7.75" PointY="6.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Test" Width="1.5" PointX="9.75" PointY="6.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.User" Width="1.5" PointX="3" PointY="1.125" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.UserClaim" Width="1.5" PointX="5.25" PointY="1.5" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.UserLogin" Width="1.5" PointX="5.25" PointY="4.25" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.UserRegistrationToken" Width="1.5" PointX="7.75" PointY="9.75" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_AspNetRoles_AspNetRoles" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_dbo_AspNetUserClaims_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_dbo_AspNetUserLogins_dbo_AspNetUsers_UserId" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_OrderLine_Product" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_Product_ProductType" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_ProductCategories_ProductType" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_UserClaim_User" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_UserLogin_User" />
+        <AssociationConnector Association="EasyPayment4uModel.AspNetUserRoles" />
+        <AssociationConnector Association="EasyPayment4uModel.UserRole" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Country" Width="1.5" PointX="10.375" PointY="13.5" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.CurrencyType" Width="1.5" PointX="12.375" PointY="17.5" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.MobilePlaneType" Width="1.5" PointX="12.375" PointY="14.5" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.MobleConnectionType" Width="1.5" PointX="10.375" PointY="10.5" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Operator" Width="1.5" PointX="12.625" PointY="10" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.State" Width="1.5" PointX="12.375" PointY="6.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Location" Width="1.5" PointX="14.875" PointY="10.375" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.MobilePlane" Width="1.5" PointX="14.625" PointY="14" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_Operator_Country" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_MobilePlane_CurrencyType" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_MobilePlane_MobilePlaneType" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_Operator_MobleConnectionType" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_Location_Operator" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Consumer" Width="1.5" PointX="7.375" PointY="12.75" />
+        <EntityTypeShape EntityType="EasyPayment4uModel.Order" Width="1.5" PointX="3.375" PointY="13.875" />
+        <AssociationConnector Association="EasyPayment4uModel.FK_OrderLine_Order" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

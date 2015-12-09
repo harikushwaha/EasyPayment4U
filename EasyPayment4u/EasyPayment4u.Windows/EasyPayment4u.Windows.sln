@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Windows", "EasyPayment4u.Windows\EasyPayment4u.Windows.csproj", "{6681EE4C-1C0F-44AC-BC7D-802732604CF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Core", "EasyPayment4u.Core\EasyPayment4u.Core.csproj", "{43EE3B84-9A59-4A8D-95CD-0CC998B4EC9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Data", "EasyPayment4u.Data\EasyPayment4u.Data.csproj", "{698BFA63-D341-4F40-A266-C680825E8AB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Services", "EasyPayment4u.Services\EasyPayment4u.Services.csproj", "{B1CD0FC7-9015-46A8-BFC8-FE7ADAF0715D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Data1", "EasyPayment4u.Data1\EasyPayment4u.Data1.csproj", "{A2CEEF44-6331-4984-8F8B-7109CC7E15E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Test", "EasyPayment4u.Test\EasyPayment4u.Test.csproj", "{4A116332-A6CD-478C-9777-D07E300DF13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPayment4u.Patterns", "EasyPayment4u.Patterns\EasyPayment4u.Patterns.csproj", "{884F7CF9-3212-4B25-B7A3-24EA391F64C2}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ep4.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EasyPayment4u.Core\\EasyPayment4u.Core.csproj
+		SccProjectName1 = EasyPayment4u.Core
+		SccLocalPath1 = EasyPayment4u.Core
+		SccProjectUniqueName2 = EasyPayment4u.Data1\\EasyPayment4u.Data1.csproj
+		SccProjectName2 = EasyPayment4u.Data1
+		SccLocalPath2 = EasyPayment4u.Data1
+		SccProjectUniqueName3 = EasyPayment4u.Data\\EasyPayment4u.Data.csproj
+		SccProjectName3 = EasyPayment4u.Data
+		SccLocalPath3 = EasyPayment4u.Data
+		SccProjectUniqueName4 = EasyPayment4u.Services\\EasyPayment4u.Services.csproj
+		SccProjectName4 = EasyPayment4u.Services
+		SccLocalPath4 = EasyPayment4u.Services
+		SccProjectUniqueName5 = EasyPayment4u.Test\\EasyPayment4u.Test.csproj
+		SccProjectName5 = EasyPayment4u.Test
+		SccLocalPath5 = EasyPayment4u.Test
+		SccProjectUniqueName6 = EasyPayment4u.Windows\\EasyPayment4u.Windows.csproj
+		SccProjectName6 = EasyPayment4u.Windows
+		SccLocalPath6 = EasyPayment4u.Windows
+		SccProjectUniqueName7 = EasyPayment4u.Patterns\\EasyPayment4u.Patterns.csproj
+		SccProjectName7 = EasyPayment4u.Patterns
+		SccLocalPath7 = EasyPayment4u.Patterns
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6681EE4C-1C0F-44AC-BC7D-802732604CF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6681EE4C-1C0F-44AC-BC7D-802732604CF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6681EE4C-1C0F-44AC-BC7D-802732604CF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6681EE4C-1C0F-44AC-BC7D-802732604CF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43EE3B84-9A59-4A8D-95CD-0CC998B4EC9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43EE3B84-9A59-4A8D-95CD-0CC998B4EC9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43EE3B84-9A59-4A8D-95CD-0CC998B4EC9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43EE3B84-9A59-4A8D-95CD-0CC998B4EC9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{698BFA63-D341-4F40-A266-C680825E8AB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{698BFA63-D341-4F40-A266-C680825E8AB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{698BFA63-D341-4F40-A266-C680825E8AB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{698BFA63-D341-4F40-A266-C680825E8AB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1CD0FC7-9015-46A8-BFC8-FE7ADAF0715D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1CD0FC7-9015-46A8-BFC8-FE7ADAF0715D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1CD0FC7-9015-46A8-BFC8-FE7ADAF0715D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1CD0FC7-9015-46A8-BFC8-FE7ADAF0715D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2CEEF44-6331-4984-8F8B-7109CC7E15E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2CEEF44-6331-4984-8F8B-7109CC7E15E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2CEEF44-6331-4984-8F8B-7109CC7E15E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2CEEF44-6331-4984-8F8B-7109CC7E15E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A116332-A6CD-478C-9777-D07E300DF13B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A116332-A6CD-478C-9777-D07E300DF13B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A116332-A6CD-478C-9777-D07E300DF13B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A116332-A6CD-478C-9777-D07E300DF13B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884F7CF9-3212-4B25-B7A3-24EA391F64C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F7CF9-3212-4B25-B7A3-24EA391F64C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F7CF9-3212-4B25-B7A3-24EA391F64C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F7CF9-3212-4B25-B7A3-24EA391F64C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
