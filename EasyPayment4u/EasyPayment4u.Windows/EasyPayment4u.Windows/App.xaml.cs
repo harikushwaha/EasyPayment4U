@@ -20,6 +20,7 @@ namespace EasyPayment4u.Windows
 {
     /// <summary>
     /// Interaction logic for App.xaml
+    /// updated code
     /// </summary>
     public partial class App : Application
     {
